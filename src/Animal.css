@@ -1,0 +1,27 @@
+.imgBox {
+  position: relative;
+  box-sizing: border-box;
+  width: 200px;
+}
+
+.level1 {
+  width: 50px;
+}
+
+.level2 {
+  width: 80px;
+}
+
+.level3 {
+  width: 120px;
+}
+
+.level4 {
+  width: 150px;
+}
+
+.position {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
