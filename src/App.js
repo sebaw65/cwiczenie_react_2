@@ -16,7 +16,10 @@ const App = () => {
 
   return (
     <div>
-      <button style={{ display: 'block' }} onClick={handleClick}>
+      <button
+        style={{ display: 'block', marginBottom: '20px' }}
+        onClick={handleClick}
+      >
         Dodaj świeżaka
       </button>
       {images
