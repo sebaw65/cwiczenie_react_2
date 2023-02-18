@@ -19,7 +19,9 @@ const App = () => {
       <button style={{ display: 'block' }} onClick={handleClick}>
         Dodaj świeżaka
       </button>
-      <Animal imagesList={images} />
+      {images
+        ? images.map((image, index) => <Animal key={index} image={image} />)
+        : null}
     </div>
   );
 };
